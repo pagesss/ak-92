@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 200px;
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+}
+
+.listadesordenada{
+    list-style: none;
+    text-decoration: none;
+}
+
+.listaordenada{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.cadaboton{
+    text-decoration: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    transition: 0.2s;
+}
+
+.cadaboton:hover{
+    color: #d5def5;
+    transition: 0.2s;
+}
+
+
+.contacto{
+    font-size: 12px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Alata', sans-serif;
+}
+
+.contacto:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.paginaArriba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+}
+
+.textobienvenida{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+.titulo{
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.textotitulo{
+    font-size: 30px;
+    color: black;
+    color: white;
+}
+
+.paginaAbajo{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+}
+
+.textohome1{
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.paginaAbajo2{
+    background-color: black;
+}
+
+.textohome2{
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    padding: 50px 100px;
+    text-align: center;
+    color: white;
+}
+
+.textohome3{
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.paginaAbajo3{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.textohome4{
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    padding: 20px 0px;
+}
+
+
+body{
+   background-color: white;
+}
+
+.fotohome1{
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendario{
+    height: 200px;
+    width: auto;
+}
+
+.fotohome3{
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textofooter{
+    color: white;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    padding-bottom: 30px;
+}
+
+.logofooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nohaynada{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+.nohaynadaschedule{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+@media screen and (max-width:414px){
+
+
+.nav{
+    background-color: red;
+}
+
+.paginaAbajo{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.textohome2{
+    padding: 50px 50px; 
+}
+
+.paginaAbajo3{
+    padding: 50px 50px;
+}
+
+.textohome4{
+    padding: 50px 50px;
+}
+
+.nav{
+    padding: 50px 80px;
+}
+
+.listaordenada{
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.contacto{
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+
+}
+
+@media screen and (min-width:715px) and (max-width: 890px){
+
+.nav{
+    padding: 20px 10px;
+}
+
+
+}
+
+@media screen and (min-width: 416px) and (max-width: 714px){
+
+.listaordenada{
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    padding: 20px 60px;
+}
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 370px){
+
+
+.titulo{
+    font-size: 40px;
+}
+
+.textotitulo{
+    font-size: 20px;
+}
+
+.textohome1{
+    font-size: 20px;
+}
+
+.textohome2{
+    font-size: 20px;
+}
+
+.calendario{
+
+    height: 100px;
+    width: auto;
+}
+
+.textohome3{
+    font-size: 20px;
+}
+
+.textohome4{
+    font-size: 20px;
+}
+
+.logo{
+    height: 140px;
+    width: auto;
+}
+
+.textofooter{
+    font-size: 20px;
+}
+
+.nohaynada{
+    font-size: 30px;
+    padding: 50px 30px;
+}
+
+.nohaynadaschedule{
+    font-size: 30px;
+    padding: 50px 30px;
+}
+
+}
