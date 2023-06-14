@@ -489,6 +489,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-family: 'Alata', sans-serif;
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width:870px){
@@ -502,7 +503,7 @@ body{
 }
 
 .textounoapoyowebuno{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .colores{
@@ -511,7 +512,7 @@ body{
 }
 
 .textodosapoyowebuno{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .animaless{
@@ -520,12 +521,20 @@ body{
 }
 
 .textotresapoyowebuno{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .formal{
     height: 100px;
     width: auto;
+}
+
+.hora{
+    font-size: 20px;
+}
+
+.dias{
+    font-size: 20px;
 }
 
 
