@@ -481,11 +481,54 @@ body{
     text-align: center;
     font-size: 40px;
     font-family: 'Alata', sans-serif;
-    padding: 20px;
+    padding: 50px;
+
 }
 
 .dias{
     text-align: center;
     font-size: 40px;
     font-family: 'Alata', sans-serif;
+}
+
+@media screen and (max-width:840px){
+
+.animales{
+    width: 400px;
+}
+
+.textouno{
+    text-align: center;
+}
+
+.textounoapoyowebuno{
+    font-size: 30px;
+}
+
+.colores{
+    height: 100px;
+    width: auto;
+}
+
+.textodosapoyowebuno{
+    font-size: 30px;
+}
+
+.animaless{
+    height: 100px;
+    width: auto;
+}
+
+.textotresapoyowebuno{
+    font-size: 30px;
+}
+
+.formal{
+    height: 100px;
+    width: auto;
+}
+
+
+
+
 }
