@@ -298,16 +298,6 @@ body{
     font-size: 20px;
 }
 
-.nohaynada{
-    font-size: 30px;
-    padding: 50px 30px;
-}
-
-.nohaynadaschedule{
-    font-size: 30px;
-    padding: 50px 30px;
-}
-
 }
 
 .unouno{
@@ -339,7 +329,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px black groove;
+    border-bottom: 2px white groove;
     background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 }
 
@@ -489,7 +479,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-family: 'Alata', sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:870px){
@@ -538,4 +528,454 @@ body{
 }
 
 
+}
+
+.textodos{
+    font-size: 40px;
+    font-family: 'Alata', sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.textodos:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.sesiondoslink{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.sesiondos{
+    padding: 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px white groove;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+.sesiondosarriba{
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+    padding: 100px 0px;
+}
+
+.dosc{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+.doscuno{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Alata', sans-serif;
+}
+
+.contenidosesiondos{
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.imagensesiondos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.casahomero{
+    padding: 10px 20px;
+    border: 8px solid #d4cbec;
+    border-radius: 20px;
+    background-color: #d5def5;
+}
+
+.apartadosesiondos{
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.pronombrespersonalesicon{
+    height: 200px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.pronombrespersonalesicon:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.textopronombrespersonales{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.pronombrespersonales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5dacbd;
+    padding:40px 100px;
+}
+
+.verboscomunes{
+    background-color: #9fd3c7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.verboscomuneslink{
+    height: 200px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.verboscomuneslink:hover{
+    transition: 0.2s;
+    transform: scale(1.1)
+}
+
+.textoverboscomunes{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.prendasvestir{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #7c73e6;
+}
+
+.textoprendas{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-family: 'Alata', sans-serif;;
+}
+
+.prendaslink{
+    height: 200px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.prendaslink:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.clasetercera{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+    padding: 50px 0px;
+    font-family: 'Alata', sans-serif;
+}
+
+
+.pronombresposesivos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #5dacbd;
+}
+
+.textopronombresposesivos{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 50px;
+}
+
+.pronombresposesivoslink{
+    height: 200px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.pronombresposesivoslink:hover{
+    transform: scale(1.1);
+    transition: 0.2s
+}
+
+.hogar{
+    background-color:#9fd3c7;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textohogar{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.hogarlink{
+    height: 200px;
+    width: auto;
+    transition: 0.2s
+}
+
+.hogarlink:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.preposiciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #7c73e6;
+}
+
+.textopreposiciones{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.preposicioneslink{
+    height: 200px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.preposicioneslink:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+@media screen and (max-width:1000px ) {
+
+
+.pronombrespersonalesicon{
+    height: 150px;
+    width: auto;
+}
+
+.textopronombrespersonales{
+    font-size: 30px;
+}
+
+.verboscomuneslink{
+    height: 150px;
+    width: auto;
+}
+
+.textoverboscomunes{
+    font-size: 30px;
+}
+
+.prendaslink{
+    height: 150px;
+    width: auto;
+}
+
+.textoprendas{
+    font-size: 30px;
+}
+
+.pronombresposesivoslink{
+    height: 150px;
+    width: auto;
+}
+
+.textopronombresposesivos{
+    font-size: 30px;
+}
+
+.hogarlink{
+    height: 150px;
+    width: auto;
+}
+
+.textohogar{
+    font-size: 30px;
+}
+
+.preposicioneslink{
+    height: 150px;
+    width: auto;
+}
+
+.textopreposiciones{
+    font-size: 30px;
+}
+
+}
+
+@media screen and (max-width:630px) {
+
+    .dosc{
+        font-size: 40px;
+    }
+
+    .doscuno{
+        font-size: 20px;
+    }
+
+    .casahomero{
+        width: 400px;
+        height: auto;
+    }
+
+    .pronombrespersonales{
+        padding: 20px 60px;
+    }
+
+    .verboscomunes{
+        padding: 20px 60px;
+    }
+
+    .prendasvestir{
+        padding: 20px 60px;
+    }
+    
+    .pronombresposesivos{
+        padding: 20px 60px;
+    }
+
+    .hogar{
+        padding: 20px 60px;
+    }
+
+    .preposiciones{
+        padding: 20px 60px;
+    }
+}
+    
+@media screen and (max-width:550px) {
+
+    .textopronombrespersonales{
+        font-size: 20px;
+    }
+
+    .textoverboscomunes{
+        font-size: 20px;
+    }
+
+    .textoprendas{
+        font-size: 20px;
+    }
+
+    .clasetercera{
+        font-size: 40px;
+    }
+
+    .textopronombresposesivos{
+        font-size: 20px;
+    }
+
+    .textohogar{
+        font-size: 20px;
+    }
+
+    .textopreposiciones{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .dosc{
+        font-size: 30px;
+    }
+
+    .contenidosesiondos{
+        padding: 20px 30px;
+        font-size: 15px;
+    }
+
+    .apartadosesiondos{
+        padding: 20px 30px;
+        font-size: 15px;
+    }
+
+    .casahomero{
+        width: 300px;
+        height: auto;
+    }
+    
+    .verboscomuneslink{
+        height: 100px;
+        width: auto;
+    }
+
+    .textoverboscomunes{
+        font-size: 15px;
+    }
+
+    .pronombrespersonalesicon{
+        height: 100px;
+        width: auto;
+    }
+
+    .textopronombrespersonales{
+        font-size: 15px;
+    }
+
+    .textoprendas{
+        font-size: 15px;
+    }
+
+    .prendaslink{
+        height: 100px;
+        width: auto;
+    }
+
+    .pronombresposesivoslink{
+        height: 100px;
+        width: auto;
+    }
+
+    .textopronombresposesivos{
+        font-size: 15px;
+    }
+
+    .hogarlink{
+        height: 100px;
+        width: auto;
+    }
+
+    .textohogar{
+        font: 15px;
+    }
+
+    .preposicioneslink{
+        height: 100px;
+        width: auto;
+    }
+
+    .textopreposiciones{
+        font-size: 15px;
+    }
+
+    .clasetercera{
+        font-size: 30px;
+    }
 }
