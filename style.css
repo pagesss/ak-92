@@ -329,8 +329,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px white groove;
-    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    border-bottom: 5px white groove;
+    background-color: #663DE4;
 }
 
 .sesionunoarriba{
@@ -557,7 +557,7 @@ body{
     align-items: center;
     justify-content: center;
     border-bottom: 2px white groove;
-    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    background: #663DE4;
 }
 
 .sesiondosarriba{

@@ -1,0 +1,481 @@
+/*CARACTERSITICAS DE CADA TARJETA*/
+/* TARJETA */
+/* EJEMPLO
+.claseUnoSemanaUno{
+    padding: 30px 20px;
+    max-width: 400px;
+    height: 300px;
+    border: 5px dashed #c0bdc9;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.claseUnoSemanaUno:hover{
+    border: 5px dashed #111111;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+*/
+
+/* TEXTO DE ADENTRO */
+/*       H1         */
+
+/* 
+
+.claseUnoSemanaUnoHUno{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+        H3
+
+.claseUnoSemanaUnoHTres{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+*/
+
+
+/*TITULO*/
+
+.primerSemana{
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+    padding: 100px 20px;
+}
+
+.tituloPrimerSemana{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+
+/* FINAL TITULO */
+
+/* CONTENIDOS GENERAL */
+
+.semanaUnoContenidos{
+    padding: 50px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* fIN CONTENIDOS GENERAL */
+
+/* TARJETA CLASE UNO SEMANA UNO */
+
+.claseUnoSemanaUno{
+    padding: 30px 20px;
+    max-width: 400px;
+    height: 300px;
+    border: 5px dashed #c0bdc9;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.claseUnoSemanaUno:hover{
+    border: 5px dashed #111111;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.claseUnoSemanaUnoHUno{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.claseUnoSemanaUnoHTres{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.claseUnoSemanaUnoLink{
+    text-decoration: none;
+    color: #c0bdc9;
+    transition: 0.2s;
+    padding: 0px 0px;
+}
+
+.claseUnoSemanaUnoLink:hover{
+    color: black; 
+    transition: 0.2s;
+}
+
+/* TARJETA CLASE UNO SEMANA UNO */
+
+/* TARJETA CLASE DOS Y TRES SEMANA UNO */
+
+.claseDosyTresSemanaUno{
+    max-width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 30px 20px;
+    border: 5px dashed #c0bdc9;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.claseDosyTresSemanaUno:hover{
+    border: 5px dashed #111111;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.claseDosyTresSemanaUnoHUNO{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.claseDosyTresSemanaUnoHTres{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.claseDosyTresSemanaUnoLink{
+    color: #c0bdc9;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.claseDosyTresSemanaUnoLink:hover{
+    color: black;
+    transition: 0.2s;
+}
+
+
+/* FIN TARJETA CLASE DOS Y TRES SEMANA UNO */
+
+/* TITULO SEMANA DOS */
+
+.tituloSemanaDos{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+
+/* CONTENIDOS GENERAL DOS */
+
+.semanaDosContenidos{
+    padding: 50px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* fIN CONTENIDOS GENERAL DOS */
+
+/* TARJETA SEMANA DOS CLASE UNO */
+
+.claseUnoSemanaDosHUno{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.claseUnoSemanaDosHTres{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+.claseUnoSemanaDosLink{
+    color: #c0bdc9;
+    text-decoration: none;
+    max-width: 400px;
+    height: 170px;
+    padding: 30px 20px;
+    border: 5px dashed #c0bdc9;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.claseUnoSemanaDosLink:hover{
+    color: black;
+    transition: 0.2s;
+    border: 5px dashed #111111;
+    border-radius: 20px;
+}
+
+/*responsive titulo*/
+
+@media screen and (max-width: 415px) {
+
+    .tituloPrimerSemana{
+        font-size: 40px;
+    }
+    
+}
+
+/* responsive semana uno clases */
+
+@media screen and (max-width: 415px) {
+
+    .semanaUnoContenidos{
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .claseUnoSemanaUno{
+        padding: 20px 10px;
+        max-width: 200px;
+        font-size: 10px;
+        height: 200px;
+    }
+
+    .claseDosyTresSemanaUno{
+        padding: 20px 10px;
+        max-width: 200px;
+        font-size: 10px;
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 415px){
+
+    .semanaDosContenidos{
+        padding: 50px;
+    }
+
+    .claseUnoSemanaDosLink{
+        padding: 20px 10px;
+        max-width: 200px;
+        font-size: 12px;
+        height: 110px;
+    }
+    
+}
+
+
+/* RECURSOS CLASE UNO SEMANA DOS */
+
+.textoarribasesionunosemanados{
+    background: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+/* FIN RECURSOS CLASE UNO SEMANA DOS */
+
+/* TEXTO INICIAL CLASE UNO SEMANA DOS */
+
+.textonormalsesionunosemanados{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+/* FIN TEXTO INICIAL CLASE UNO SEMANA DOS */
+
+/* PRIMERAS DOS TARJETAS ALIMENTACION Y RUTINA DIARIA */
+
+.tematicasUnoyDosSesionUnoSemanaDos{
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* TARJETA ALIMENTACION */
+
+    .linkAlimentacion{
+        border: 5px dashed #a2c11c;;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #c0bdc9;
+        max-width: 400px;
+        height: 150px;
+        transition: 0.2s;
+    }
+
+    .linkAlimentacion:hover{
+        transition: 0.2s;
+        transform: scale(1.1);
+    }
+
+    .alimentacionTexto{
+        font-size: 40px;
+        padding: 20px 20px;
+        text-align: center;
+        color: black;
+        font-family: 'Alata', sans-serif;
+    }
+
+    .alimentacionTextoDisponible{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        font-family: 'Alata', sans-serif;
+    }
+
+    /* FIN TARJETA ALIMENTACION */
+
+    /* TARJETA RUTINA */
+
+    .linkRutinaDiaria{
+        border: 5px dashed #a2c11c;;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #c0bdc9;
+        max-width: 400px;
+        height: 150px;
+        transition: 0.2s;
+    }
+
+    .linkRutinaDiaria:hover{
+        transition: 0.2s;
+        transform: scale(1.1);
+    }   
+
+    .rutinaDiariaTexto{
+        font-size: 40px;
+        padding: 20px 20px;
+        text-align: center;
+        color: black;
+        font-family: 'Alata', sans-serif;
+    }
+
+    .rutinaDiariaTextoDisponible{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        font-family: 'Alata', sans-serif;
+    }
+
+    /* FIN TARJETA RUTINA */
+
+    @media screen and (min-width: 420px) and (max-width: 1030px) {
+
+
+        .semanaUnoContenidos{
+            padding: 20px 20px;
+        }
+        
+        .semanaDosContenidos{
+            padding: 20px 20px;
+        }
+
+        .claseUnoSemanaUno{
+            padding: 20px 10px;
+            max-width: 200px;
+            font-size: 10px;
+            height: 200px;
+        }
+
+        .claseDosyTresSemanaUno{
+            padding: 20px 10px;
+            max-width: 200px;
+            font-size: 10px;
+            height: 200px;
+        }
+
+        .tituloSemanaDos{
+            font-size: 30px;
+        }
+
+        .claseUnoSemanaDosHUno{
+            font-size: 20px;
+        }
+
+        .claseUnoSemanaDosLink{
+            max-width: 200px;
+            height: 130px;
+        }
+    }
+
+    @media screen and (min-width:1031px) and (max-width:1168px){
+
+        .semanaUnoContenidos{
+            padding: 30px 200px;
+        }
+        
+    }
+
+    @media screen and (max-width:700px){
+
+        .textoarribasesionunosemanados{
+            font-size: 30px;
+        }
+
+        .textonormalsesionunosemanados{
+            padding: 20px 50px;
+            font-size: 15px;
+        }
+
+        .tematicasUnoyDosSesionUnoSemanaDos{
+            padding: 20px 50px;
+        }
+
+        .linkAlimentacion{
+            height: 80px;
+            max-width: 150px;
+        }
+
+        .linkRutinaDiaria{
+            height: 80px;
+            max-width: 150px;
+        }
+
+        .alimentacionTexto{
+            font-size: 15px;
+            padding: 10px 10px;
+        }
+
+        .alimentacionTextoDisponible{
+            font-size: 10px;
+        }
+
+        .rutinaDiariaTexto{
+            font-size: 15px;
+            padding: 10px 10px;
+        }
+
+        .rutinaDiariaTextoDisponible{
+            font-size: 10px;
+        }
+
+    }
+
+    @media screen and (min-width:700px) and (max-width: 1000px){
+
+        .tematicasUnoyDosSesionUnoSemanaDos{
+            padding: 40px 100px;
+        }
+
+        .linkAlimentacion{
+            max-width: 200px;
+            height: 200px;
+        }
+
+        .alimentacionTexto{
+            font-size: 25px;
+        }
+
+        .linkRutinaDiaria{
+            max-width: 200px;
+            height: 200px;
+        }
+
+        .rutinaDiariaTexto{
+            font-size: 25px;
+        }
+    }
+
+
+
