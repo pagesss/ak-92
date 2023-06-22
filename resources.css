@@ -478,4 +478,256 @@
     }
 
 
+.tematicasTresyCuatroSemanaDos{
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.linkRopa{
+    border: 5px dashed #a2c11c;;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #111111;
+        max-width: 400px;
+        height: 220px;
+        transition: 0.2s;
+}
+
+.linkRopa:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.linkJuguetes{
+    border: 5px dashed #a2c11c;;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #111111;
+    max-width: 400px;
+    height: 220px;
+    transition: 0.2s;
+}
+
+.linkJuguetes:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.ropaTexto{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+}
+
+.ropaDisponible{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.juguetesTexto{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+}
+
+.juguetesDisponible{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.tematicasCincoySeisSemanaDos{
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linkSalud{
+    border: 5px dashed #a2c11c;;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #111111;
+    max-width: 400px;
+    height: 220px;
+    transition: 0.2s;
+}
+
+.linkSalud:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.linkEmociones{
+    border: 5px dashed #a2c11c;;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #111111;
+    max-width: 400px;
+    height: 220px;
+    transition: 0.2s;
+}
+
+.linkEmociones:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.emocionesTexto{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+}
+
+.emocionesDisponible{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.saludTexto{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+}
+
+.saludDisponible{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+
+@media screen and (max-width: 600px){
+
+
+    .tematicasTresyCuatroSemanaDos{
+        padding: 20px 50px;
+    }
+
+    .linkRopa{
+        height: 120px;
+        width: 130px;
+    }
+
+    .ropaTexto{
+        font-size: 15px;
+    }
+
+    .ropaDisponible{
+        font-size: 10px;
+    }
+
+    .linkJuguetes{
+        height: 120px;
+    }
+
+    .juguetesTexto{
+        font-size: 15px;
+    }
+
+    .juguetesDisponible{
+        font-size: 10px;
+    }
+
+    .tematicasCincoySeisSemanaDos{
+        padding: 20px 50px;
+    }
+
+    .linkSalud{
+        height: 140px;
+    }
+
+    .linkEmociones{
+        height: 140px;
+    }
+
+    .saludTexto{
+        font-size: 15px;
+    }
+
+    .saludDisponible{
+        font-size: 10px;
+    }
+
+    .emocionesTexto{
+        font-size: 15px;
+    }
+
+    .emocionesDisponible{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width:900px) {
+
+
+    .tematicasTresyCuatroSemanaDos{
+        padding: 50px 100px;
+    }
+
+    .linkRopa{
+        height: 150px;
+    }
+
+    .linkJuguetes{
+        height: 150px;
+    }
+
+    .ropaTexto{
+        font-size: 20px;
+    }
+
+    .ropaDisponible{
+        font-size: 15px;
+    }
+
+    .juguetesTexto{
+        font-size: 20px;
+    }
+
+    .juguetesDisponible{
+        font-size: 15px;
+    }
+
+    .tematicasCincoySeisSemanaDos{
+        padding: 50px 100px;
+    }
+
+    .saludTexto{
+        font-size: 20px;
+    }
+
+    .saludDisponible{
+        font-size: 15px;
+    }
+
+    .emocionesTexto{
+        font-size: 20px;
+    }
+
+    .emocionesDisponible{
+        font-size: 15px;
+    }
+
+    .linkEmociones{
+        height: 150px;
+    }
+
+    .linkSalud{
+        height: 150px;
+    }
+
+    .tematicasUnoyDosSesionUnoSemanaDos{
+        padding: 20px 140px;
+    }
+    
+}
