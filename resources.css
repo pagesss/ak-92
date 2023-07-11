@@ -154,7 +154,7 @@
 
 /* TITULO SEMANA DOS */
 
-.tituloSemanaDos{
+.tituloSemanaDos, .semanaCincoTitulo{
     font-size: 50px;
     text-align: center;
     padding: 30px;
@@ -817,3 +817,67 @@
     }
 
 }
+
+
+.hobbies, .dates{
+    padding: 30px 20px;
+    max-width: 400px;
+    height: 130px;
+    border: 5px dashed #c0bdc9;
+    border-radius: 20px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: #c0bdc9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hobbies:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    color: black;
+    border-color: black;
+}
+
+.dates:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    color: black;
+    border-color: black;
+}
+
+.semanaCuatroClaseDos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+
+.weekFiveFirstSession{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment{
+    padding: 30px 20px;
+    max-width: 400px;
+    height: 130px;
+    border: 5px dashed #c0bdc9;
+    border-radius: 20px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: #c0bdc9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.appointment:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    color: black;
+    border-color: black;
+}
+
