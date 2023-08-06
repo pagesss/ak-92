@@ -943,6 +943,30 @@
     justify-content: center;
 }
 
+.saldo{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px black groove;
+    font-family: 'Alata', sans-serif;
+}
+
+.clasesBalance{
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.saldoWindows{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 20px;
+}
+
 
 
 
